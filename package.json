@@ -1,0 +1,22 @@
+{
+  "name": "funnelup",
+  "version": "0.0.1",
+  "description": "The job search funnel approach",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/bfraley/funnelup",
+  "keywords": [
+    "funnelup",
+    "Funnel Up",
+    "job search",
+    "organization",
+    "planning tools"
+  ],
+  "author": "Brett Fraley",
+  "license": "dual - pending",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}
