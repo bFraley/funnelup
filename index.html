@@ -1,29 +1,35 @@
 <!-- Copyright 2016 By Brett Fraley -->
 
+<!--  GET FUNNEL DATA FROM FILE SYSTEM  -->
+
+<!-- DISPLAY FUNNEL DATA -->
+
+<!-- STORY DRAG/DROP EDIT DATA-STRUCTURE -->
+
+<!-- STORY ATTACHMENT DOCUMENTS -->
+
 <!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
     <title>Funnel Up</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="funnelup-style.css">
   </head>
 
   <body>
-      <div class="funnelup-wrapper">
+    <div class="funnel-menu">Menu</div>
+    <div class="resources">Resources</div>
 
-        <div class="funnel" id="main-funnel">
-            <h1>The Funnel</h1>
-
-            <!--  GET FUNNEL DATA FROM FILE SYSTEM  -->
-
-            <!-- DISPLAY FUNNEL DATA -->
-
-            <!-- STORY DRAG/DROP EDIT DATA-STRUCTURE -->
-
-            <!-- STORY ATTACHMENT DOCUMENTS -->
-
-        </div>
-      </div>
+    <div class="funnelup-wrapper">
+      <div class="funnel" id="main-funnel">
+        <div class="level pour">Pour</div>
+        <div class="level interaction">Interaction</div>
+        <div class="level pre-interview">Pre-Interview</div>
+        <div class="level scheduled-interview">Scheduled Interview</div>
+        <div class="level post-interview">Post Interview</div>
+        <div class="level pending-offers">Pending Offers</div>
+      </div>  <!-- end div class: main-funnel -->
+    </div>  <!-- end div class: funnel-wrapper -->
   </body>
 
   <script>require('./funnelup.js')</script>

@@ -1,0 +1,30 @@
+body {
+  width:100%;
+  height:100% !important;
+  margin:0;
+  padding:0;
+}
+
+.funnel-wrapper {
+  margin:0px auto;
+}
+
+.funnel {
+  width:95%;
+  margin:auto;
+}
+
+.level {
+  min-width:175px;
+  min-height:100px;
+  margin:20px auto;
+  border: solid 3px #999;
+  padding:10px;
+}
+
+.pour { width:90%; }
+.interaction { width:80%; }
+.pre-interview { width:60%; }
+.scheduled-interview { width:40%; }
+.post-interview { width:30%; }
+.pending-offers { width:10%; }
